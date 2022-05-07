@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+:root {
+  --btn-color: #ff385c;
+  --btn-color-hover: #fc7e95;
+  --height-btn: 45px;
+  --text-lable-font: 16px;
+}
+
+html {
+  font-family: sans-serif;
+}
+
+.clear {
+  clear: both;
+}
+
+.white-text {
+  color: #fff !important;
+}
+
+/* body {
+  height: 1200px;
+  background-color: black;
+} */
+/* Base */
+
+.grid-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -8px;
+  margin-right: -8px;
+  row-gap: 15px;
+}
+
+.grid-column-4 {
+  width: 25%;
+  padding: 0 8px;
+}
+
+.grid-column-3 {
+  width: 33.33%;
+  padding: 0 8px;
+}
+
+a {
+  text-decoration: none;
+  color: #717171;
+  
+}
+
+input {
+  outline: none;
+}
+
+input:-webkit-autofill {
+  background-color: white !important;
+  background-image:none !important;
+  color: #000000 !important;
+}
+
+.negative {
+  color: #fff;
+  /* background-color: #222222; */
+}
+
+.header-txt {
+  line-height: 52px;
+  font-size: 48px;
+  font-weight: 520;
+}
+
+.sub-header-txt {
+  font-size: 18px;
+  font-weight: 200;
+}
+
+.button {
+  background-color: #222222;
+  color: #fff;
+  padding: 15px 20px;
+  border-radius: 5px;
+  font-weight: 700;
+  margin-top: 35px;
+}
+
+.button--negative {
+  color: #222222;
+  background-color: #fff;
+}
+
+ul {
+  padding: 0px;
+  list-style: none;
+}
+
+@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+ 
+.isa_info, .isa_success, .isa_warning, .isa_error {
+margin: 10px 0px;
+padding:12px;
+ 
+}
+.isa_info {
+    color: #00529B;
+    background-color: #BDE5F8;
+}
+.isa_success {
+    color: #4F8A10;
+    background-color: #DFF2BF;
+}
+.isa_warning {
+    color: #9F6000;
+    background-color: #FEEFB3;
+}
+.isa_error {
+    color: #D8000C;
+    background-color: #FFD2D2;
+}
+.isa_info i, .isa_success i, .isa_warning i, .isa_error i {
+    margin:10px 22px;
+    font-size:2em;
+    vertical-align:middle;
+}

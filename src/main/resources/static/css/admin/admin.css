@@ -1,0 +1,138 @@
+body {
+	font-family: "Poppins", sans-serif;
+	line-height: 1.4;
+}
+
+
+.overlay-confirm {
+	background-color: #fff;
+	width: 500px;
+	border-radius: 10px;
+	/* background-image: url(/assets/Image/bg_form9.jpg); */
+	background-color: #fff;
+	margin-bottom: 200px;
+}
+
+.overlay-confirm-header {
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	height: 270px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+
+.input-form{
+	display: block;
+	margin-top: 95px;
+	padding: 20px 50px;
+    
+	
+}
+
+.input-form input{
+	display: block;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	padding: 10px 30px;
+	background-color: #ccc;
+    border-radius: 12px;
+
+	
+}
+
+.overlay-confirm-header p {
+	margin-top: 95px;
+	font-weight: 600;
+	color: rgb(63, 63, 63);
+	font-size: 18px;
+}
+
+.overlay-confirm-header i {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	font-size: 20px;
+	color: rgb(102, 102, 102);
+}
+
+.overlay-confirm-header i:hover {
+	cursor: pointer;
+}
+
+.overlay-confirm-content {
+	flex-direction: row;
+	justify-content: flex-end;
+	position: relative;
+	display: flex;
+	align-items: center;
+	margin: 40px;
+}
+
+.overlay-confirm-data {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.overlay-confirm-data-item {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 20px 0px;
+	height: 40px;
+	width: 80%;
+	border-bottom: 2px solid rgb(77, 77, 77);
+}
+
+.overlay-confirm-data-item i {
+	display: block;
+	color: rgb(63, 63, 63);
+	font-size: var(- -text-label-font);
+}
+
+.overlay-confirm-data-item input {
+	width: 100%;
+	background-color: transparent;
+	height: 40px;
+	outline: none;
+	padding-left: 10px;
+	color: rgb(63, 63, 63);
+	font-size: 16px;
+}
+
+.overlay-confirm-data-item input::placeholder {
+	color: rgb(109, 109, 109);
+	font-size: var(- -text-label-font);
+}
+
+.overlay-confirm-button {
+	width: 25%;
+	margin-left: 20px;
+}
+
+.overlay-confirm-button button {
+	height: var(--height-btn);
+	width: 100%;
+	border-radius: 8px;
+	background-color: var(--btn-color);
+	color: #fff;
+	font-weight: 500;
+}
+
+.overlay-confirm-button button a {
+	color: #fff;
+	font-weight: 500;
+}
+
+.overlay-confirm-button button:hover {
+	background-color: var(--btn-color-hover);
+	cursor: pointer;
+}
+
+.logo-frame{
+	margin-left: 65px;
+}
